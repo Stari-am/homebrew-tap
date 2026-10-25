@@ -1,6 +1,7 @@
 # Stari-am Homebrew tap
 
 ```sh
+brew trust --cask stari-am/tap/griasa   # Homebrew 7+: casks from other taps must be trusted
 brew install --cask stari-am/tap/griasa
 ```
 
