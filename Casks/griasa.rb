@@ -1,6 +1,6 @@
 cask "griasa" do
-  version "1.0.21"
-  sha256 "1d6911bcd1c0348e2852f666401af372fea98515ada1b8adbf1fde45a03493e6"
+  version "1.0.22"
+  sha256 "83b7ea641d866a86068fa77cc4f77f65e33faf5b5164b4dfcac01fc6530b4429"
 
   url "https://github.com/Stari-am/griasa/releases/download/v#{version}/Griasa-#{version}.dmg"
   name "Griasa"
@@ -12,7 +12,7 @@ cask "griasa" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: ">= :sonoma"
   # The speech and AI engines Griasa would otherwise install with brew on first launch.
   depends_on formula: ["whisper.cpp", "llama.cpp"]
 
