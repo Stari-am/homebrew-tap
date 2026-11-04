@@ -1,10 +1,10 @@
 cask "griasa" do
-  version "1.0.25"
-  sha256 "578dbf6cee8ad7701ffdf386c30f90d592728739763f823052595c367c790f21"
+  version "1.0.26"
+  sha256 "49d0b54ae958435b76f48bcb59583df8fbb2449e68bc517239c0e5cbbeb0c60e"
 
   url "https://github.com/Stari-am/griasa/releases/download/v#{version}/Griasa-#{version}.dmg"
   name "Griasa"
-  desc "Local-first meeting memory: who promised what, briefs and dictation"
+  desc "Remembers what was promised in your meetings, on your Mac"
   homepage "https://stari-am.github.io/griasa/"
 
   livecheck do
