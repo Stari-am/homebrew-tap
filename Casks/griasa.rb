@@ -1,6 +1,6 @@
 cask "griasa" do
-  version "1.0.26"
-  sha256 "49d0b54ae958435b76f48bcb59583df8fbb2449e68bc517239c0e5cbbeb0c60e"
+  version "1.0.27"
+  sha256 "00296990046566be8c8a9a99f19bb190bd062b28ddcf5fde70de87fce81689ca"
 
   url "https://github.com/Stari-am/griasa/releases/download/v#{version}/Griasa-#{version}.dmg"
   name "Griasa"
